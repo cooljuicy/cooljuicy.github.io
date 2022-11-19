@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-Ch">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myweb-juicy</title>
+
+    <style>
+        body{ margin: 0;height: 100vh;background-color: #eee;}
+        *{border: 1px solid black;}
+        .flex{display: flex;}
+        .baise{background-color: white;}
+        .flex1{flex: 1;}
+        .column{flex-direction: column;}
+    </style>
+</head>
+
+<body class="flex">
+   <!--侧边栏-->
+   <div style="width: 130px;" class="baise">
+    <!--c1-->
+    <div style="height: 100px;align-items: center; font-size: 120%;color:purple;" class="flex">
+    </div>
+    <!--c2-->
+    <div><p>我的小网站</p></div>
+    </div>
+   <!--主区域-->
+   <div class="flex1 flex column">
+    <!--头部栏-->
+    <div style="height: 60px;" class="baise">
+    </div>
+    <!--内容区-->
+    <div class="flex1 flex">
+        <!--左-->
+        <div style="flex: 5;" class="flex column">
+            <div class="flex column">
+                <div style="height: 110px;" class="baise"></div>
+                <div style="height: 110px;" class="baise"></div>
+                <div style="height: 110px;" class="baise"></div>
+                <div style="height: 110px;" class="baise"></div>
+             </div>
+        </div>
+        <!--右-->
+        <div style="flex: 1;" class="flex column">
+            <!--yA-->
+            <div style="height: 300px;" class="baise"></div>
+            <!--yB-->
+            <div style="height: 150px;" class="baise">
+           </div>
+            <!--/yB-->
+        </div>
+    </div>
+   </div>
+</body>
+</html>
